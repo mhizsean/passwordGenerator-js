@@ -58,6 +58,11 @@ body {
 
 }
 
+.cont {
+    display: inline-flex;
+    
+}
+
 .pass-display {
     background-color: rgb(5, 155, 147);
     padding: 1rem;
@@ -72,11 +77,22 @@ body {
     word-break: break-all;
 }
 
+.btn {
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all linear 0.3s ;
+}
+
+.btn:hover {
+    color: grey;
+}
 .form {
     margin-top: 20px;
 }
 
-.btn {
+
+.butn {
     grid-column: span 2;
     background-color: transparent;
     color: white;
@@ -88,7 +104,7 @@ body {
     outline: none;
 }
 
-.btn:hover {
+.butn:hover {
     background-color: teal;
 }
 
@@ -106,9 +122,15 @@ body {
         font-size: 18px;
     }
 
+    
+.cont {
+    display: inline-flex;
+    width: 280px;   
+}
+
     .pass-display {
         height: 2rem;
-        width: 280px;
+        width: 260px;
         font-size: 14px;
     }
 

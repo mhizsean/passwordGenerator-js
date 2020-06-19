@@ -14,6 +14,9 @@ const form = document.getElementById('passGeneratorForm')
 
 const passwordDisplay = document.getElementById('passwordDisplay')
 
+new ClipboardJS('.btn');
+
+
 const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
 const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
 const NUMBER_CHAR_CODES = arrayFromLowToHigh(48, 57)
@@ -73,3 +76,4 @@ function syncCharacterAmount(e) {
     characterAmountNumber.value = value;
     characterAmountRange.value = value;
 }
+
