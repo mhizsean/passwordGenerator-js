@@ -72,6 +72,10 @@ body {
     word-break: break-all;
 }
 
+.form {
+    margin-top: 20px;
+}
+
 .btn {
     grid-column: span 2;
     background-color: transparent;
